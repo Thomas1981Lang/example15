@@ -1,17 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Hello, SmartNinja</title>
-    <link rel="stylesheet" href="/static/css/style.css">
-</head>
+{% extends "base.html" %}
 
-<body>
-<img src="static/img/smartninja-logo.png">
+{% block title %}About{% endblock title %}
+
+{% block content %}
 <h1>About</h1>
 
 <a href="/">Home</a>
 <a href="/about">About</a>
 <a href="/portfolio">Portfolio</a>
-</body>
-</html>
+{% endblock content %}
